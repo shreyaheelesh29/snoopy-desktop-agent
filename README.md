@@ -1,5 +1,9 @@
 # Snoopy — robot-puppy desktop companion
 
+## License
+
+The project source code is licensed under the MIT License; see [LICENSE](LICENSE). The Snoopy character artwork and related visual assets in `public/character/` and `build-resources/` are **not covered by that code license**. They are distributed under separate permission and may not be reused or redistributed independently without permission from the relevant rights holder.
+
 A Windows-first starter built with Electron, React, and Vite. Snoopy is a black-and-white robot pup with a round white face, ink-black floppy ears and eye patch, blush-pink cheeks, a tiny cyan chest display, and a star-tipped antenna. The character keeps an original robot-puppy silhouette and has eight sprite poses: idle, happy, thinking, speaking, working, walking, sleeping, and excited.
 
 The app runs as a small transparent desktop companion. It stays above other windows and can be dragged anywhere. Chat runs through Ollama on your PC, so requests use the local model and do not use OpenAI API credits. Snoopy can open Chrome, Visual Studio Code, Command Prompt, Notepad, and Calculator; ask permission before closing those apps; prepare web searches; open a supplied website or selected Windows Settings pages; and save a text note in `Documents\Snoopy Companion Notes`. Choose a project folder with **Set project folder** to let Snoopy offer to open it in VS Code, launch Command Prompt there, or run its `npm test` script with approval and show the output. Snoopy displays progress and results in a speech bubble without speaking aloud. That silent behavior is intentional. Wake-word app-open requests launch directly; typed app and close requests show an approval card. The installed app bundles a Python runtime and the Vosk English (India) model for offline voice input.
