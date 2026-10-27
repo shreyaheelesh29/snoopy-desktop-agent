@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.voice-env/
+models/
+dist/
+out/
+release/
+.packaging/
+__pycache__/
+*.py[cod]
+.DS_Store
